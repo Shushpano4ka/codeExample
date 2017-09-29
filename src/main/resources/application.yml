@@ -1,0 +1,15 @@
+server:
+  port: 8555
+  url:
+    local: http://localhost:8555/
+    remote: ***
+
+db:
+  driver: org.postgresql.Driver
+  username: code_example
+  password: root
+  url:
+    local: jdbc:postgresql://localhost:5432/****?useUnicode=yes&characterEncoding=UTF-8
+    remote: jdbc:postgresql://10.0.0.181:5432/****?useUnicode=yes&characterEncoding=UTF-8
+  schema:
+    name: public
